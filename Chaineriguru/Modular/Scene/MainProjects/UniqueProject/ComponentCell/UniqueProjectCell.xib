@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-SemiBold.ttf">
+            <string>Inter-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="uniqueProjectComponentCell" rowHeight="95" id="KGk-i7-Jjw" customClass="UniqueProjectCell" customModule="Chaineriguru" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="95"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="95"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tde-4t-l5o">
+                        <rect key="frame" x="15" y="5" width="290" height="85"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgw-eg-yFD">
+                                <rect key="frame" x="9.9999999999999964" y="10" width="44.666666666666657" height="20"/>
+                                <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ANo-T2-o7K">
+                                <rect key="frame" x="260" y="7.6666666666666643" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="KAf-gq-uRq"/>
+                                    <constraint firstAttribute="width" constant="25" id="ZBa-nw-MrR"/>
+                                </constraints>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="LSf-Eb-k5N">
+                                <rect key="frame" x="10" y="42.666666666666664" width="270" height="4"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yco-Rz-hOz">
+                                <rect key="frame" x="10" y="56.666666666666657" width="270" height="20"/>
+                                <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yco-Rz-hOz" firstAttribute="leading" secondItem="tde-4t-l5o" secondAttribute="leading" constant="10" id="Ggv-r9-wJv"/>
+                            <constraint firstItem="LSf-Eb-k5N" firstAttribute="leading" secondItem="tde-4t-l5o" secondAttribute="leading" constant="10" id="Jgs-Sg-E9C"/>
+                            <constraint firstAttribute="trailing" secondItem="LSf-Eb-k5N" secondAttribute="trailing" constant="10" id="K03-Cl-x5H"/>
+                            <constraint firstItem="pgw-eg-yFD" firstAttribute="leading" secondItem="tde-4t-l5o" secondAttribute="leading" constant="10" id="Po8-SW-88W"/>
+                            <constraint firstItem="LSf-Eb-k5N" firstAttribute="top" secondItem="ANo-T2-o7K" secondAttribute="bottom" constant="10" id="QcA-6e-hAS"/>
+                            <constraint firstAttribute="trailing" secondItem="ANo-T2-o7K" secondAttribute="trailing" constant="5" id="T8T-9y-fFF"/>
+                            <constraint firstItem="pgw-eg-yFD" firstAttribute="top" secondItem="tde-4t-l5o" secondAttribute="top" constant="10" id="T9A-WY-ky7"/>
+                            <constraint firstAttribute="trailing" secondItem="yco-Rz-hOz" secondAttribute="trailing" constant="10" id="Zdn-s8-TpZ"/>
+                            <constraint firstItem="ANo-T2-o7K" firstAttribute="centerY" secondItem="pgw-eg-yFD" secondAttribute="centerY" id="dSu-C7-VwO"/>
+                            <constraint firstItem="yco-Rz-hOz" firstAttribute="top" secondItem="LSf-Eb-k5N" secondAttribute="bottom" constant="10" id="xwN-aX-bS3"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="tde-4t-l5o" secondAttribute="trailing" constant="15" id="3LJ-29-IUX"/>
+                    <constraint firstAttribute="bottom" secondItem="tde-4t-l5o" secondAttribute="bottom" constant="5" id="909-as-vs1"/>
+                    <constraint firstItem="tde-4t-l5o" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="JmS-Ss-3Qb"/>
+                    <constraint firstItem="tde-4t-l5o" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="M67-6F-1k7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="goalUniqueBudgetLabel" destination="yco-Rz-hOz" id="rqp-Hj-9hv"/>
+                <outlet property="goalUniqueProgressView" destination="LSf-Eb-k5N" id="sPO-gR-PYk"/>
+                <outlet property="projectDotsImageView" destination="ANo-T2-o7K" id="gCa-Ji-xYL"/>
+                <outlet property="uniqueGoalTitleLabel" destination="pgw-eg-yFD" id="r3S-lv-eyw"/>
+                <outlet property="uniqueView" destination="tde-4t-l5o" id="3so-BT-G3P"/>
+            </connections>
+            <point key="canvasLocation" x="138.93129770992365" y="38.380281690140848"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -7,29 +7,182 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA2051B32B7E75C300E243D6 /* RouteCombinationer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2051B22B7E75C300E243D6 /* RouteCombinationer.swift */; };
+		DA2051B52B7E790100E243D6 /* RouteModularComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2051B42B7E790100E243D6 /* RouteModularComponents.swift */; };
+		DA2051B72B7E7C4C00E243D6 /* LaunchCombinationer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2051B62B7E7C4C00E243D6 /* LaunchCombinationer.swift */; };
+		DA2051B92B7E7CD100E243D6 /* LaunchCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2051B82B7E7CD100E243D6 /* LaunchCollector.swift */; };
+		DA2051BB2B7E7D4800E243D6 /* LaunchRouteCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2051BA2B7E7D4800E243D6 /* LaunchRouteCenter.swift */; };
+		DA2051BD2B7E7FA300E243D6 /* LoginCombinationer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2051BC2B7E7FA300E243D6 /* LoginCombinationer.swift */; };
+		DA2051BF2B7E7FB400E243D6 /* LoginCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2051BE2B7E7FB400E243D6 /* LoginCollector.swift */; };
+		DA2051C12B7E7FC300E243D6 /* LoginRouteCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2051C02B7E7FC300E243D6 /* LoginRouteCenter.swift */; };
+		DA538E552B84E233002F0132 /* GuruTemplatesViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA538E542B84E233002F0132 /* GuruTemplatesViewComponent.swift */; };
+		DA538E572B84E246002F0132 /* GuruTemplatesCombinationer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA538E562B84E246002F0132 /* GuruTemplatesCombinationer.swift */; };
+		DA538E592B84E259002F0132 /* GuruTemplatesCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA538E582B84E259002F0132 /* GuruTemplatesCollector.swift */; };
+		DA538E5B2B84E26B002F0132 /* GuruTemplatesRouteCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA538E5A2B84E26B002F0132 /* GuruTemplatesRouteCenter.swift */; };
+		DA538E5F2B84EEF1002F0132 /* TemplateGuruComponentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA538E5D2B84EEF1002F0132 /* TemplateGuruComponentCell.swift */; };
+		DA538E602B84EEF1002F0132 /* TemplateGuruComponentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA538E5E2B84EEF1002F0132 /* TemplateGuruComponentCell.xib */; };
+		DA538E632B850D33002F0132 /* GuruTemplatesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA538E622B850D33002F0132 /* GuruTemplatesModel.swift */; };
+		DA691A502B8286D500B946CA /* RegistrationCombinationer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA691A4F2B8286D500B946CA /* RegistrationCombinationer.swift */; };
+		DA691A522B8286E600B946CA /* RegistrationCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA691A512B8286E600B946CA /* RegistrationCollector.swift */; };
+		DA691A542B8286F600B946CA /* RegistrationRouteCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA691A532B8286F600B946CA /* RegistrationRouteCenter.swift */; };
 		DAA780D92B7CDB75000DD541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA780D82B7CDB75000DD541 /* AppDelegate.swift */; };
-		DAA780DB2B7CDB75000DD541 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA780DA2B7CDB75000DD541 /* SceneDelegate.swift */; };
-		DAA780DD2B7CDB75000DD541 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA780DC2B7CDB75000DD541 /* ViewController.swift */; };
-		DAA780E02B7CDB75000DD541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA780DE2B7CDB75000DD541 /* Main.storyboard */; };
+		DAA780DD2B7CDB75000DD541 /* RegistrationViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA780DC2B7CDB75000DD541 /* RegistrationViewComponent.swift */; };
+		DAA780E02B7CDB75000DD541 /* UserLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA780DE2B7CDB75000DD541 /* UserLogin.storyboard */; };
 		DAA780E32B7CDB75000DD541 /* Chaineriguru.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAA780E12B7CDB75000DD541 /* Chaineriguru.xcdatamodeld */; };
 		DAA780E52B7CDB76000DD541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA780E42B7CDB76000DD541 /* Assets.xcassets */; };
 		DAA780E82B7CDB76000DD541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA780E62B7CDB76000DD541 /* LaunchScreen.storyboard */; };
+		DAA781012B7D2465000DD541 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAA780FF2B7D2465000DD541 /* Inter-SemiBold.ttf */; };
+		DAA781022B7D2465000DD541 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAA781002B7D2465000DD541 /* Inter-Regular.ttf */; };
+		DAA781042B7D2566000DD541 /* LoginViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA781032B7D2566000DD541 /* LoginViewComponent.swift */; };
+		DAA781072B7D25AC000DD541 /* LaunchViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA781062B7D25AC000DD541 /* LaunchViewComponent.swift */; };
+		DAC99C692B838259001DAFC1 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DAC99C682B838259001DAFC1 /* IQKeyboardManagerSwift */; };
+		DAC99C6D2B838C24001DAFC1 /* ViewComponentAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC99C6C2B838C24001DAFC1 /* ViewComponentAlert.swift */; };
+		DAC99C722B83919F001DAFC1 /* MainProjects.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC99C712B83919F001DAFC1 /* MainProjects.storyboard */; };
+		DAC99C752B8391F1001DAFC1 /* UniqueProjectViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC99C742B8391F1001DAFC1 /* UniqueProjectViewComponent.swift */; };
+		DAC99C772B83961B001DAFC1 /* UniqueProjectCombinationer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC99C762B83961B001DAFC1 /* UniqueProjectCombinationer.swift */; };
+		DAC99C792B83962C001DAFC1 /* UniqueProjectCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC99C782B83962C001DAFC1 /* UniqueProjectCollector.swift */; };
+		DAC99C7B2B839640001DAFC1 /* UniqueProjectRouteCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC99C7A2B839640001DAFC1 /* UniqueProjectRouteCenter.swift */; };
+		DAC99C7E2B83969F001DAFC1 /* GuruMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC99C7D2B83969F001DAFC1 /* GuruMenu.storyboard */; };
+		DAC99C812B83BB41001DAFC1 /* OptionMenuViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC99C802B83BB41001DAFC1 /* OptionMenuViewComponent.swift */; };
+		DAC99C832B83BB54001DAFC1 /* OptionMenuCombinationer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC99C822B83BB54001DAFC1 /* OptionMenuCombinationer.swift */; };
+		DAC99C852B83BB63001DAFC1 /* OptionMenuCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC99C842B83BB63001DAFC1 /* OptionMenuCollector.swift */; };
+		DAC99C872B83BB76001DAFC1 /* OptionMenuRouteCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC99C862B83BB76001DAFC1 /* OptionMenuRouteCenter.swift */; };
+		DAC99C8A2B83C563001DAFC1 /* GuruSettingsViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC99C892B83C563001DAFC1 /* GuruSettingsViewComponent.swift */; };
+		DAC99C8C2B83C579001DAFC1 /* GuruSettingsCombinationer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC99C8B2B83C579001DAFC1 /* GuruSettingsCombinationer.swift */; };
+		DAC99C8E2B83C58A001DAFC1 /* GuruSettingsCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC99C8D2B83C58A001DAFC1 /* GuruSettingsCollector.swift */; };
+		DAC99C902B83C599001DAFC1 /* GuruSettingsRouteCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC99C8F2B83C599001DAFC1 /* GuruSettingsRouteCenter.swift */; };
+		DAC99C932B840E9E001DAFC1 /* ProfileGuruViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC99C922B840E9E001DAFC1 /* ProfileGuruViewComponent.swift */; };
+		DAC99C952B840EFE001DAFC1 /* ProfileGuruCombinationer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC99C942B840EFE001DAFC1 /* ProfileGuruCombinationer.swift */; };
+		DAC99C972B840F0E001DAFC1 /* ProfileGuruCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC99C962B840F0E001DAFC1 /* ProfileGuruCollector.swift */; };
+		DAC99C992B840F2B001DAFC1 /* ProfileGuruRouteCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC99C982B840F2B001DAFC1 /* ProfileGuruRouteCenter.swift */; };
+		DAE8C2EA2B85FB4B0066640A /* UniqueProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8C2E82B85FB4B0066640A /* UniqueProjectCell.swift */; };
+		DAE8C2EB2B85FB4B0066640A /* UniqueProjectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE8C2E92B85FB4B0066640A /* UniqueProjectCell.xib */; };
+		DAE8C2ED2B8603690066640A /* StorageGuruCombinationer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8C2EC2B8603690066640A /* StorageGuruCombinationer.swift */; };
+		DAE8C2F52B8615BE0066640A /* UniqueGoalProject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8C2F32B8615BE0066640A /* UniqueGoalProject+CoreDataClass.swift */; };
+		DAE8C2F62B8615BE0066640A /* UniqueGoalProject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8C2F42B8615BE0066640A /* UniqueGoalProject+CoreDataProperties.swift */; };
+		DAE8C2F92B8642070066640A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAE8C2F82B8642070066640A /* GoogleService-Info.plist */; };
+		DAE8C2FD2B8645420066640A /* FacebookAEM in Frameworks */ = {isa = PBXBuildFile; productRef = DAE8C2FC2B8645420066640A /* FacebookAEM */; };
+		DAE8C2FF2B8645420066640A /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = DAE8C2FE2B8645420066640A /* FacebookBasics */; };
+		DAE8C3012B8645420066640A /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = DAE8C3002B8645420066640A /* FacebookCore */; };
+		DAE8C3032B8645420066640A /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = DAE8C3022B8645420066640A /* FacebookShare */; };
+		DAE8C3062B86455A0066640A /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = DAE8C3052B86455A0066640A /* OneSignalExtension */; };
+		DAE8C3082B86455A0066640A /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = DAE8C3072B86455A0066640A /* OneSignalFramework */; };
+		DAE8C30B2B8645D60066640A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DAE8C30A2B8645D60066640A /* FirebaseAnalytics */; };
+		DAE8C30D2B8645D60066640A /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = DAE8C30C2B8645D60066640A /* FirebasePerformance */; };
+		DAE8C30F2B8645D60066640A /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = DAE8C30E2B8645D60066640A /* FirebaseRemoteConfig */; };
+		DAE8C3112B8646040066640A /* FirebaseAppAnalyticsCombinationer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8C3102B8646040066640A /* FirebaseAppAnalyticsCombinationer.swift */; };
+		DAE8C3142B8649FF0066640A /* RemoteStatusCombinationer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8C3132B8649FF0066640A /* RemoteStatusCombinationer.swift */; };
+		DAE8C31C2B865A360066640A /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8C31B2B865A360066640A /* NotificationService.swift */; };
+		DAE8C3202B865A360066640A /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DAE8C3192B865A360066640A /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DAE8C31E2B865A360066640A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAA780CD2B7CDB75000DD541 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAE8C3182B865A360066640A;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DAE8C3242B865A360066640A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DAE8C3202B865A360066640A /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		DA2051B22B7E75C300E243D6 /* RouteCombinationer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteCombinationer.swift; sourceTree = "<group>"; };
+		DA2051B42B7E790100E243D6 /* RouteModularComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteModularComponents.swift; sourceTree = "<group>"; };
+		DA2051B62B7E7C4C00E243D6 /* LaunchCombinationer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCombinationer.swift; sourceTree = "<group>"; };
+		DA2051B82B7E7CD100E243D6 /* LaunchCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCollector.swift; sourceTree = "<group>"; };
+		DA2051BA2B7E7D4800E243D6 /* LaunchRouteCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchRouteCenter.swift; sourceTree = "<group>"; };
+		DA2051BC2B7E7FA300E243D6 /* LoginCombinationer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCombinationer.swift; sourceTree = "<group>"; };
+		DA2051BE2B7E7FB400E243D6 /* LoginCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCollector.swift; sourceTree = "<group>"; };
+		DA2051C02B7E7FC300E243D6 /* LoginRouteCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouteCenter.swift; sourceTree = "<group>"; };
+		DA538E542B84E233002F0132 /* GuruTemplatesViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuruTemplatesViewComponent.swift; sourceTree = "<group>"; };
+		DA538E562B84E246002F0132 /* GuruTemplatesCombinationer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuruTemplatesCombinationer.swift; sourceTree = "<group>"; };
+		DA538E582B84E259002F0132 /* GuruTemplatesCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuruTemplatesCollector.swift; sourceTree = "<group>"; };
+		DA538E5A2B84E26B002F0132 /* GuruTemplatesRouteCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuruTemplatesRouteCenter.swift; sourceTree = "<group>"; };
+		DA538E5D2B84EEF1002F0132 /* TemplateGuruComponentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateGuruComponentCell.swift; sourceTree = "<group>"; };
+		DA538E5E2B84EEF1002F0132 /* TemplateGuruComponentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TemplateGuruComponentCell.xib; sourceTree = "<group>"; };
+		DA538E622B850D33002F0132 /* GuruTemplatesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuruTemplatesModel.swift; sourceTree = "<group>"; };
+		DA691A4F2B8286D500B946CA /* RegistrationCombinationer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationCombinationer.swift; sourceTree = "<group>"; };
+		DA691A512B8286E600B946CA /* RegistrationCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationCollector.swift; sourceTree = "<group>"; };
+		DA691A532B8286F600B946CA /* RegistrationRouteCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationRouteCenter.swift; sourceTree = "<group>"; };
 		DAA780D52B7CDB75000DD541 /* Chaineriguru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chaineriguru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA780D82B7CDB75000DD541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DAA780DA2B7CDB75000DD541 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DAA780DC2B7CDB75000DD541 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DAA780DF2B7CDB75000DD541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAA780DC2B7CDB75000DD541 /* RegistrationViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewComponent.swift; sourceTree = "<group>"; };
+		DAA780DF2B7CDB75000DD541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserLogin.storyboard; sourceTree = "<group>"; };
 		DAA780E22B7CDB75000DD541 /* Chaineriguru.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chaineriguru.xcdatamodel; sourceTree = "<group>"; };
 		DAA780E42B7CDB76000DD541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAA780E72B7CDB76000DD541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAA780E92B7CDB76000DD541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA780FF2B7D2465000DD541 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		DAA781002B7D2465000DD541 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		DAA781032B7D2566000DD541 /* LoginViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewComponent.swift; sourceTree = "<group>"; };
+		DAA781062B7D25AC000DD541 /* LaunchViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewComponent.swift; sourceTree = "<group>"; };
+		DAC99C6C2B838C24001DAFC1 /* ViewComponentAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComponentAlert.swift; sourceTree = "<group>"; };
+		DAC99C712B83919F001DAFC1 /* MainProjects.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainProjects.storyboard; sourceTree = "<group>"; };
+		DAC99C742B8391F1001DAFC1 /* UniqueProjectViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueProjectViewComponent.swift; sourceTree = "<group>"; };
+		DAC99C762B83961B001DAFC1 /* UniqueProjectCombinationer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueProjectCombinationer.swift; sourceTree = "<group>"; };
+		DAC99C782B83962C001DAFC1 /* UniqueProjectCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueProjectCollector.swift; sourceTree = "<group>"; };
+		DAC99C7A2B839640001DAFC1 /* UniqueProjectRouteCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueProjectRouteCenter.swift; sourceTree = "<group>"; };
+		DAC99C7D2B83969F001DAFC1 /* GuruMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GuruMenu.storyboard; sourceTree = "<group>"; };
+		DAC99C802B83BB41001DAFC1 /* OptionMenuViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionMenuViewComponent.swift; sourceTree = "<group>"; };
+		DAC99C822B83BB54001DAFC1 /* OptionMenuCombinationer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionMenuCombinationer.swift; sourceTree = "<group>"; };
+		DAC99C842B83BB63001DAFC1 /* OptionMenuCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionMenuCollector.swift; sourceTree = "<group>"; };
+		DAC99C862B83BB76001DAFC1 /* OptionMenuRouteCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionMenuRouteCenter.swift; sourceTree = "<group>"; };
+		DAC99C892B83C563001DAFC1 /* GuruSettingsViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuruSettingsViewComponent.swift; sourceTree = "<group>"; };
+		DAC99C8B2B83C579001DAFC1 /* GuruSettingsCombinationer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuruSettingsCombinationer.swift; sourceTree = "<group>"; };
+		DAC99C8D2B83C58A001DAFC1 /* GuruSettingsCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuruSettingsCollector.swift; sourceTree = "<group>"; };
+		DAC99C8F2B83C599001DAFC1 /* GuruSettingsRouteCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuruSettingsRouteCenter.swift; sourceTree = "<group>"; };
+		DAC99C922B840E9E001DAFC1 /* ProfileGuruViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileGuruViewComponent.swift; sourceTree = "<group>"; };
+		DAC99C942B840EFE001DAFC1 /* ProfileGuruCombinationer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileGuruCombinationer.swift; sourceTree = "<group>"; };
+		DAC99C962B840F0E001DAFC1 /* ProfileGuruCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileGuruCollector.swift; sourceTree = "<group>"; };
+		DAC99C982B840F2B001DAFC1 /* ProfileGuruRouteCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileGuruRouteCenter.swift; sourceTree = "<group>"; };
+		DAE8C2E82B85FB4B0066640A /* UniqueProjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueProjectCell.swift; sourceTree = "<group>"; };
+		DAE8C2E92B85FB4B0066640A /* UniqueProjectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UniqueProjectCell.xib; sourceTree = "<group>"; };
+		DAE8C2EC2B8603690066640A /* StorageGuruCombinationer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageGuruCombinationer.swift; sourceTree = "<group>"; };
+		DAE8C2F32B8615BE0066640A /* UniqueGoalProject+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UniqueGoalProject+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DAE8C2F42B8615BE0066640A /* UniqueGoalProject+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UniqueGoalProject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DAE8C2F82B8642070066640A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DAE8C3102B8646040066640A /* FirebaseAppAnalyticsCombinationer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAppAnalyticsCombinationer.swift; sourceTree = "<group>"; };
+		DAE8C3132B8649FF0066640A /* RemoteStatusCombinationer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteStatusCombinationer.swift; sourceTree = "<group>"; };
+		DAE8C3192B865A360066640A /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE8C31B2B865A360066640A /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		DAE8C31D2B865A360066640A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE8C3252B865A3F0066640A /* Chaineriguru.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chaineriguru.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DAA780D22B7CDB75000DD541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE8C2FF2B8645420066640A /* FacebookBasics in Frameworks */,
+				DAE8C3062B86455A0066640A /* OneSignalExtension in Frameworks */,
+				DAE8C30D2B8645D60066640A /* FirebasePerformance in Frameworks */,
+				DAE8C30B2B8645D60066640A /* FirebaseAnalytics in Frameworks */,
+				DAE8C3082B86455A0066640A /* OneSignalFramework in Frameworks */,
+				DAE8C2FD2B8645420066640A /* FacebookAEM in Frameworks */,
+				DAC99C692B838259001DAFC1 /* IQKeyboardManagerSwift in Frameworks */,
+				DAE8C3032B8645420066640A /* FacebookShare in Frameworks */,
+				DAE8C3012B8645420066640A /* FacebookCore in Frameworks */,
+				DAE8C30F2B8645D60066640A /* FirebaseRemoteConfig in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE8C3162B865A360066640A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,10 +192,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA538E532B84E21E002F0132 /* GuruTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				DA538E5C2B84EED8002F0132 /* ComponentCell */,
+				DA538E542B84E233002F0132 /* GuruTemplatesViewComponent.swift */,
+				DA538E562B84E246002F0132 /* GuruTemplatesCombinationer.swift */,
+				DA538E582B84E259002F0132 /* GuruTemplatesCollector.swift */,
+				DA538E5A2B84E26B002F0132 /* GuruTemplatesRouteCenter.swift */,
+			);
+			path = GuruTemplates;
+			sourceTree = "<group>";
+		};
+		DA538E5C2B84EED8002F0132 /* ComponentCell */ = {
+			isa = PBXGroup;
+			children = (
+				DA538E5D2B84EEF1002F0132 /* TemplateGuruComponentCell.swift */,
+				DA538E5E2B84EEF1002F0132 /* TemplateGuruComponentCell.xib */,
+			);
+			path = ComponentCell;
+			sourceTree = "<group>";
+		};
+		DA538E612B850D20002F0132 /* NativeModels */ = {
+			isa = PBXGroup;
+			children = (
+				DA538E622B850D33002F0132 /* GuruTemplatesModel.swift */,
+			);
+			path = NativeModels;
+			sourceTree = "<group>";
+		};
 		DAA780CC2B7CDB75000DD541 = {
 			isa = PBXGroup;
 			children = (
 				DAA780D72B7CDB75000DD541 /* Chaineriguru */,
+				DAE8C31A2B865A360066640A /* OneSignalNotificationServiceExtension */,
 				DAA780D62B7CDB75000DD541 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				DAA780D52B7CDB75000DD541 /* Chaineriguru.app */,
+				DAE8C3192B865A360066640A /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,16 +242,325 @@
 		DAA780D72B7CDB75000DD541 /* Chaineriguru */ = {
 			isa = PBXGroup;
 			children = (
-				DAA780D82B7CDB75000DD541 /* AppDelegate.swift */,
-				DAA780DA2B7CDB75000DD541 /* SceneDelegate.swift */,
-				DAA780DC2B7CDB75000DD541 /* ViewController.swift */,
-				DAA780DE2B7CDB75000DD541 /* Main.storyboard */,
-				DAA780E42B7CDB76000DD541 /* Assets.xcassets */,
-				DAA780E62B7CDB76000DD541 /* LaunchScreen.storyboard */,
-				DAA780E92B7CDB76000DD541 /* Info.plist */,
-				DAA780E12B7CDB75000DD541 /* Chaineriguru.xcdatamodeld */,
+				DAE8C3252B865A3F0066640A /* Chaineriguru.entitlements */,
+				DAA780EF2B7CEC01000DD541 /* ApplicationCore */,
+				DAA780F42B7D1DA8000DD541 /* Modular */,
 			);
 			path = Chaineriguru;
+			sourceTree = "<group>";
+		};
+		DAA780EF2B7CEC01000DD541 /* ApplicationCore */ = {
+			isa = PBXGroup;
+			children = (
+				DAA780D82B7CDB75000DD541 /* AppDelegate.swift */,
+				DAA780F02B7CEC14000DD541 /* Information */,
+				DAA780F12B7CEC3D000DD541 /* Elements */,
+			);
+			path = ApplicationCore;
+			sourceTree = "<group>";
+		};
+		DAA780F02B7CEC14000DD541 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				DAE8C2F72B8641E90066640A /* GoogleInfo */,
+				DAA780E92B7CDB76000DD541 /* Info.plist */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		DAA780F12B7CEC3D000DD541 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				DAA780E62B7CDB76000DD541 /* LaunchScreen.storyboard */,
+				DAA780F32B7CEC54000DD541 /* Fonts */,
+				DAA780F22B7CEC48000DD541 /* Assets */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		DAA780F22B7CEC48000DD541 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DAA780E42B7CDB76000DD541 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DAA780F32B7CEC54000DD541 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DAA780FE2B7D245B000DD541 /* Inter */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DAA780F42B7D1DA8000DD541 /* Modular */ = {
+			isa = PBXGroup;
+			children = (
+				DAA780F62B7D1DD2000DD541 /* Scene */,
+				DAA780F72B7D1E61000DD541 /* Route */,
+				DAA780F82B7D1E6C000DD541 /* Storage */,
+				DAC99C6A2B838C06001DAFC1 /* Extension */,
+				DAA780F52B7D1DC6000DD541 /* Network */,
+			);
+			path = Modular;
+			sourceTree = "<group>";
+		};
+		DAA780F52B7D1DC6000DD541 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DAE8C2FA2B8644FD0066640A /* FirebaseAnalytics */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DAA780F62B7D1DD2000DD541 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				DAA780FA2B7D1FD1000DD541 /* UserLogin */,
+				DAC99C6E2B839164001DAFC1 /* MainProjects */,
+				DAC99C6F2B83917C001DAFC1 /* GuruMenu */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		DAA780F72B7D1E61000DD541 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				DA2051B22B7E75C300E243D6 /* RouteCombinationer.swift */,
+				DA2051B42B7E790100E243D6 /* RouteModularComponents.swift */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		DAA780F82B7D1E6C000DD541 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				DA538E612B850D20002F0132 /* NativeModels */,
+				DAA780F92B7D1E7E000DD541 /* DataModel */,
+				DAE8C2F22B8606F70066640A /* EntityModel */,
+				DAE8C2EC2B8603690066640A /* StorageGuruCombinationer.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		DAA780F92B7D1E7E000DD541 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				DAA780E12B7CDB75000DD541 /* Chaineriguru.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		DAA780FA2B7D1FD1000DD541 /* UserLogin */ = {
+			isa = PBXGroup;
+			children = (
+				DAA780FD2B7D2017000DD541 /* Preview */,
+				DAA781052B7D257C000DD541 /* Launch */,
+				DAA780FC2B7D2003000DD541 /* Registration */,
+				DAA780FB2B7D1FE7000DD541 /* Login */,
+			);
+			path = UserLogin;
+			sourceTree = "<group>";
+		};
+		DAA780FB2B7D1FE7000DD541 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DAA781032B7D2566000DD541 /* LoginViewComponent.swift */,
+				DA2051BC2B7E7FA300E243D6 /* LoginCombinationer.swift */,
+				DA2051BE2B7E7FB400E243D6 /* LoginCollector.swift */,
+				DA2051C02B7E7FC300E243D6 /* LoginRouteCenter.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DAA780FC2B7D2003000DD541 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				DAA780DC2B7CDB75000DD541 /* RegistrationViewComponent.swift */,
+				DA691A4F2B8286D500B946CA /* RegistrationCombinationer.swift */,
+				DA691A512B8286E600B946CA /* RegistrationCollector.swift */,
+				DA691A532B8286F600B946CA /* RegistrationRouteCenter.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		DAA780FD2B7D2017000DD541 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				DAA780DE2B7CDB75000DD541 /* UserLogin.storyboard */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		DAA780FE2B7D245B000DD541 /* Inter */ = {
+			isa = PBXGroup;
+			children = (
+				DAA781002B7D2465000DD541 /* Inter-Regular.ttf */,
+				DAA780FF2B7D2465000DD541 /* Inter-SemiBold.ttf */,
+			);
+			path = Inter;
+			sourceTree = "<group>";
+		};
+		DAA781052B7D257C000DD541 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				DAA781062B7D25AC000DD541 /* LaunchViewComponent.swift */,
+				DA2051B62B7E7C4C00E243D6 /* LaunchCombinationer.swift */,
+				DA2051B82B7E7CD100E243D6 /* LaunchCollector.swift */,
+				DA2051BA2B7E7D4800E243D6 /* LaunchRouteCenter.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		DAC99C6A2B838C06001DAFC1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DAC99C6B2B838C0D001DAFC1 /* ViewComponent */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DAC99C6B2B838C0D001DAFC1 /* ViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				DAC99C6C2B838C24001DAFC1 /* ViewComponentAlert.swift */,
+			);
+			path = ViewComponent;
+			sourceTree = "<group>";
+		};
+		DAC99C6E2B839164001DAFC1 /* MainProjects */ = {
+			isa = PBXGroup;
+			children = (
+				DAC99C702B839195001DAFC1 /* Preview */,
+				DAC99C732B8391B5001DAFC1 /* UniqueProject */,
+			);
+			path = MainProjects;
+			sourceTree = "<group>";
+		};
+		DAC99C6F2B83917C001DAFC1 /* GuruMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DAC99C7C2B839696001DAFC1 /* Preview */,
+				DAC99C7F2B83BB1A001DAFC1 /* OptionMenu */,
+				DAC99C882B83C551001DAFC1 /* GuruSettings */,
+				DAC99C912B840E79001DAFC1 /* ProfileGuru */,
+				DA538E532B84E21E002F0132 /* GuruTemplates */,
+			);
+			path = GuruMenu;
+			sourceTree = "<group>";
+		};
+		DAC99C702B839195001DAFC1 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				DAC99C712B83919F001DAFC1 /* MainProjects.storyboard */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		DAC99C732B8391B5001DAFC1 /* UniqueProject */ = {
+			isa = PBXGroup;
+			children = (
+				DAE8C2E72B85FB360066640A /* ComponentCell */,
+				DAC99C742B8391F1001DAFC1 /* UniqueProjectViewComponent.swift */,
+				DAC99C762B83961B001DAFC1 /* UniqueProjectCombinationer.swift */,
+				DAC99C782B83962C001DAFC1 /* UniqueProjectCollector.swift */,
+				DAC99C7A2B839640001DAFC1 /* UniqueProjectRouteCenter.swift */,
+			);
+			path = UniqueProject;
+			sourceTree = "<group>";
+		};
+		DAC99C7C2B839696001DAFC1 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				DAC99C7D2B83969F001DAFC1 /* GuruMenu.storyboard */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		DAC99C7F2B83BB1A001DAFC1 /* OptionMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DAC99C802B83BB41001DAFC1 /* OptionMenuViewComponent.swift */,
+				DAC99C822B83BB54001DAFC1 /* OptionMenuCombinationer.swift */,
+				DAC99C842B83BB63001DAFC1 /* OptionMenuCollector.swift */,
+				DAC99C862B83BB76001DAFC1 /* OptionMenuRouteCenter.swift */,
+			);
+			path = OptionMenu;
+			sourceTree = "<group>";
+		};
+		DAC99C882B83C551001DAFC1 /* GuruSettings */ = {
+			isa = PBXGroup;
+			children = (
+				DAC99C892B83C563001DAFC1 /* GuruSettingsViewComponent.swift */,
+				DAC99C8B2B83C579001DAFC1 /* GuruSettingsCombinationer.swift */,
+				DAC99C8D2B83C58A001DAFC1 /* GuruSettingsCollector.swift */,
+				DAC99C8F2B83C599001DAFC1 /* GuruSettingsRouteCenter.swift */,
+			);
+			path = GuruSettings;
+			sourceTree = "<group>";
+		};
+		DAC99C912B840E79001DAFC1 /* ProfileGuru */ = {
+			isa = PBXGroup;
+			children = (
+				DAC99C922B840E9E001DAFC1 /* ProfileGuruViewComponent.swift */,
+				DAC99C942B840EFE001DAFC1 /* ProfileGuruCombinationer.swift */,
+				DAC99C962B840F0E001DAFC1 /* ProfileGuruCollector.swift */,
+				DAC99C982B840F2B001DAFC1 /* ProfileGuruRouteCenter.swift */,
+			);
+			path = ProfileGuru;
+			sourceTree = "<group>";
+		};
+		DAE8C2E72B85FB360066640A /* ComponentCell */ = {
+			isa = PBXGroup;
+			children = (
+				DAE8C2E82B85FB4B0066640A /* UniqueProjectCell.swift */,
+				DAE8C2E92B85FB4B0066640A /* UniqueProjectCell.xib */,
+			);
+			path = ComponentCell;
+			sourceTree = "<group>";
+		};
+		DAE8C2F22B8606F70066640A /* EntityModel */ = {
+			isa = PBXGroup;
+			children = (
+				DAE8C2F32B8615BE0066640A /* UniqueGoalProject+CoreDataClass.swift */,
+				DAE8C2F42B8615BE0066640A /* UniqueGoalProject+CoreDataProperties.swift */,
+			);
+			path = EntityModel;
+			sourceTree = "<group>";
+		};
+		DAE8C2F72B8641E90066640A /* GoogleInfo */ = {
+			isa = PBXGroup;
+			children = (
+				DAE8C2F82B8642070066640A /* GoogleService-Info.plist */,
+			);
+			path = GoogleInfo;
+			sourceTree = "<group>";
+		};
+		DAE8C2FA2B8644FD0066640A /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				DAE8C3122B8649E80066640A /* RemoteStatus */,
+				DAE8C3102B8646040066640A /* FirebaseAppAnalyticsCombinationer.swift */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		DAE8C3122B8649E80066640A /* RemoteStatus */ = {
+			isa = PBXGroup;
+			children = (
+				DAE8C3132B8649FF0066640A /* RemoteStatusCombinationer.swift */,
+			);
+			path = RemoteStatus;
+			sourceTree = "<group>";
+		};
+		DAE8C31A2B865A360066640A /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DAE8C31B2B865A360066640A /* NotificationService.swift */,
+				DAE8C31D2B865A360066640A /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,15 +573,46 @@
 				DAA780D12B7CDB75000DD541 /* Sources */,
 				DAA780D22B7CDB75000DD541 /* Frameworks */,
 				DAA780D32B7CDB75000DD541 /* Resources */,
+				DAE8C3242B865A360066640A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAE8C31F2B865A360066640A /* PBXTargetDependency */,
+			);
+			name = Chaineriguru;
+			packageProductDependencies = (
+				DAC99C682B838259001DAFC1 /* IQKeyboardManagerSwift */,
+				DAE8C2FC2B8645420066640A /* FacebookAEM */,
+				DAE8C2FE2B8645420066640A /* FacebookBasics */,
+				DAE8C3002B8645420066640A /* FacebookCore */,
+				DAE8C3022B8645420066640A /* FacebookShare */,
+				DAE8C3052B86455A0066640A /* OneSignalExtension */,
+				DAE8C3072B86455A0066640A /* OneSignalFramework */,
+				DAE8C30A2B8645D60066640A /* FirebaseAnalytics */,
+				DAE8C30C2B8645D60066640A /* FirebasePerformance */,
+				DAE8C30E2B8645D60066640A /* FirebaseRemoteConfig */,
+			);
+			productName = Chaineriguru;
+			productReference = DAA780D52B7CDB75000DD541 /* Chaineriguru.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAE8C3182B865A360066640A /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE8C3212B865A360066640A /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				DAE8C3152B865A360066640A /* Sources */,
+				DAE8C3162B865A360066640A /* Frameworks */,
+				DAE8C3172B865A360066640A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Chaineriguru;
-			productName = Chaineriguru;
-			productReference = DAA780D52B7CDB75000DD541 /* Chaineriguru.app */;
-			productType = "com.apple.product-type.application";
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = DAE8C3192B865A360066640A /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -103,6 +627,9 @@
 					DAA780D42B7CDB75000DD541 = {
 						CreatedOnToolsVersion = 15.0;
 					};
+					DAE8C3182B865A360066640A = {
+						CreatedOnToolsVersion = 15.0;
+					};
 				};
 			};
 			buildConfigurationList = DAA780D02B7CDB75000DD541 /* Build configuration list for PBXProject "Chaineriguru" */;
@@ -114,11 +641,18 @@
 				Base,
 			);
 			mainGroup = DAA780CC2B7CDB75000DD541;
+			packageReferences = (
+				DAC99C672B838259001DAFC1 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				DAE8C2FB2B8645420066640A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				DAE8C3042B86455A0066640A /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+				DAE8C3092B8645D60066640A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = DAA780D62B7CDB75000DD541 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				DAA780D42B7CDB75000DD541 /* Chaineriguru */,
+				DAE8C3182B865A360066640A /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -128,9 +662,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA538E602B84EEF1002F0132 /* TemplateGuruComponentCell.xib in Resources */,
+				DAA781012B7D2465000DD541 /* Inter-SemiBold.ttf in Resources */,
+				DAA781022B7D2465000DD541 /* Inter-Regular.ttf in Resources */,
 				DAA780E82B7CDB76000DD541 /* LaunchScreen.storyboard in Resources */,
+				DAC99C722B83919F001DAFC1 /* MainProjects.storyboard in Resources */,
 				DAA780E52B7CDB76000DD541 /* Assets.xcassets in Resources */,
-				DAA780E02B7CDB75000DD541 /* Main.storyboard in Resources */,
+				DAE8C2EB2B85FB4B0066640A /* UniqueProjectCell.xib in Resources */,
+				DAE8C2F92B8642070066640A /* GoogleService-Info.plist in Resources */,
+				DAC99C7E2B83969F001DAFC1 /* GuruMenu.storyboard in Resources */,
+				DAA780E02B7CDB75000DD541 /* UserLogin.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE8C3172B865A360066640A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,22 +689,79 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAA780DD2B7CDB75000DD541 /* ViewController.swift in Sources */,
+				DAC99C792B83962C001DAFC1 /* UniqueProjectCollector.swift in Sources */,
+				DA538E5B2B84E26B002F0132 /* GuruTemplatesRouteCenter.swift in Sources */,
+				DAC99C8E2B83C58A001DAFC1 /* GuruSettingsCollector.swift in Sources */,
+				DA538E572B84E246002F0132 /* GuruTemplatesCombinationer.swift in Sources */,
+				DA538E632B850D33002F0132 /* GuruTemplatesModel.swift in Sources */,
+				DAE8C2ED2B8603690066640A /* StorageGuruCombinationer.swift in Sources */,
+				DA2051B92B7E7CD100E243D6 /* LaunchCollector.swift in Sources */,
+				DA2051BB2B7E7D4800E243D6 /* LaunchRouteCenter.swift in Sources */,
+				DAC99C752B8391F1001DAFC1 /* UniqueProjectViewComponent.swift in Sources */,
+				DA2051BD2B7E7FA300E243D6 /* LoginCombinationer.swift in Sources */,
+				DAE8C3112B8646040066640A /* FirebaseAppAnalyticsCombinationer.swift in Sources */,
+				DA691A542B8286F600B946CA /* RegistrationRouteCenter.swift in Sources */,
+				DAC99C8A2B83C563001DAFC1 /* GuruSettingsViewComponent.swift in Sources */,
+				DAC99C902B83C599001DAFC1 /* GuruSettingsRouteCenter.swift in Sources */,
+				DAC99C772B83961B001DAFC1 /* UniqueProjectCombinationer.swift in Sources */,
+				DA2051B32B7E75C300E243D6 /* RouteCombinationer.swift in Sources */,
+				DAC99C952B840EFE001DAFC1 /* ProfileGuruCombinationer.swift in Sources */,
+				DA2051B72B7E7C4C00E243D6 /* LaunchCombinationer.swift in Sources */,
+				DA691A502B8286D500B946CA /* RegistrationCombinationer.swift in Sources */,
+				DAC99C6D2B838C24001DAFC1 /* ViewComponentAlert.swift in Sources */,
+				DAC99C872B83BB76001DAFC1 /* OptionMenuRouteCenter.swift in Sources */,
+				DAC99C972B840F0E001DAFC1 /* ProfileGuruCollector.swift in Sources */,
+				DAE8C2F62B8615BE0066640A /* UniqueGoalProject+CoreDataProperties.swift in Sources */,
+				DAC99C932B840E9E001DAFC1 /* ProfileGuruViewComponent.swift in Sources */,
+				DAA780DD2B7CDB75000DD541 /* RegistrationViewComponent.swift in Sources */,
+				DAC99C992B840F2B001DAFC1 /* ProfileGuruRouteCenter.swift in Sources */,
+				DA538E5F2B84EEF1002F0132 /* TemplateGuruComponentCell.swift in Sources */,
+				DAE8C2EA2B85FB4B0066640A /* UniqueProjectCell.swift in Sources */,
+				DAC99C8C2B83C579001DAFC1 /* GuruSettingsCombinationer.swift in Sources */,
+				DAC99C812B83BB41001DAFC1 /* OptionMenuViewComponent.swift in Sources */,
+				DAE8C2F52B8615BE0066640A /* UniqueGoalProject+CoreDataClass.swift in Sources */,
 				DAA780D92B7CDB75000DD541 /* AppDelegate.swift in Sources */,
-				DAA780DB2B7CDB75000DD541 /* SceneDelegate.swift in Sources */,
+				DA538E592B84E259002F0132 /* GuruTemplatesCollector.swift in Sources */,
+				DA2051BF2B7E7FB400E243D6 /* LoginCollector.swift in Sources */,
+				DAE8C3142B8649FF0066640A /* RemoteStatusCombinationer.swift in Sources */,
+				DA2051C12B7E7FC300E243D6 /* LoginRouteCenter.swift in Sources */,
+				DA2051B52B7E790100E243D6 /* RouteModularComponents.swift in Sources */,
+				DAC99C852B83BB63001DAFC1 /* OptionMenuCollector.swift in Sources */,
+				DAA781042B7D2566000DD541 /* LoginViewComponent.swift in Sources */,
 				DAA780E32B7CDB75000DD541 /* Chaineriguru.xcdatamodeld in Sources */,
+				DAA781072B7D25AC000DD541 /* LaunchViewComponent.swift in Sources */,
+				DA691A522B8286E600B946CA /* RegistrationCollector.swift in Sources */,
+				DAC99C832B83BB54001DAFC1 /* OptionMenuCombinationer.swift in Sources */,
+				DA538E552B84E233002F0132 /* GuruTemplatesViewComponent.swift in Sources */,
+				DAC99C7B2B839640001DAFC1 /* UniqueProjectRouteCenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE8C3152B865A360066640A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE8C31C2B865A360066640A /* NotificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		DAE8C31F2B865A360066640A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAE8C3182B865A360066640A /* OneSignalNotificationServiceExtension */;
+			targetProxy = DAE8C31E2B865A360066640A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		DAA780DE2B7CDB75000DD541 /* Main.storyboard */ = {
+		DAA780DE2B7CDB75000DD541 /* UserLogin.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DAA780DF2B7CDB75000DD541 /* Base */,
 			);
-			name = Main.storyboard;
+			name = UserLogin.storyboard;
 			sourceTree = "<group>";
 		};
 		DAA780E62B7CDB76000DD541 /* LaunchScreen.storyboard */ = {
@@ -292,17 +897,23 @@
 		DAA780ED2B7CDB76000DD541 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Chaineriguru/Chaineriguru.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.2;
+				DEVELOPMENT_TEAM = C36B6ZJA65;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Chaineriguru/Info.plist;
+				INFOPLIST_FILE = Chaineriguru/ApplicationCore/Information/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Этому приложению необходим доступ к вашей библиотеке фотографий, чтобы вы могли выбрать изображение профиля.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Для того, чтобы еще больше улучшить ваш опыт, нам нужно вашег согласие на использование этого уникального идентификатора. Это поможет нам более точно проанализировать ваше взаимодействие с приложением и гарантировать, что мы предоставляем контент, соответствующий вашим пожеланиям.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = UserLogin;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,26 +921,34 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaingur.sys.Chaineriguru;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DAA780EE2B7CDB76000DD541 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Chaineriguru/Chaineriguru.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.2;
+				DEVELOPMENT_TEAM = C36B6ZJA65;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Chaineriguru/Info.plist;
+				INFOPLIST_FILE = Chaineriguru/ApplicationCore/Information/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Этому приложению необходим доступ к вашей библиотеке фотографий, чтобы вы могли выбрать изображение профиля.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Для того, чтобы еще больше улучшить ваш опыт, нам нужно вашег согласие на использование этого уникального идентификатора. Это поможет нам более точно проанализировать ваше взаимодействие с приложением и гарантировать, что мы предоставляем контент, соответствующий вашим пожеланиям.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = UserLogin;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,6 +956,58 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaingur.sys.Chaineriguru;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DAE8C3222B865A360066640A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C36B6ZJA65;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaingur.sys.Chaineriguru.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAE8C3232B865A360066640A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C36B6ZJA65;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaingur.sys.Chaineriguru.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -364,7 +1035,104 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		DAE8C3212B865A360066640A /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE8C3222B865A360066640A /* Debug */,
+				DAE8C3232B865A360066640A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DAC99C672B838259001DAFC1 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.1;
+			};
+		};
+		DAE8C2FB2B8645420066640A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
+			};
+		};
+		DAE8C3042B86455A0066640A /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+		DAE8C3092B8645D60066640A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.21.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DAC99C682B838259001DAFC1 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAC99C672B838259001DAFC1 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		DAE8C2FC2B8645420066640A /* FacebookAEM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAE8C2FB2B8645420066640A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookAEM;
+		};
+		DAE8C2FE2B8645420066640A /* FacebookBasics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAE8C2FB2B8645420066640A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookBasics;
+		};
+		DAE8C3002B8645420066640A /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAE8C2FB2B8645420066640A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		DAE8C3022B8645420066640A /* FacebookShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAE8C2FB2B8645420066640A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookShare;
+		};
+		DAE8C3052B86455A0066640A /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAE8C3042B86455A0066640A /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+		DAE8C3072B86455A0066640A /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAE8C3042B86455A0066640A /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+		DAE8C30A2B8645D60066640A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAE8C3092B8645D60066640A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		DAE8C30C2B8645D60066640A /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAE8C3092B8645D60066640A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		DAE8C30E2B8645D60066640A /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAE8C3092B8645D60066640A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		DAA780E12B7CDB75000DD541 /* Chaineriguru.xcdatamodeld */ = {
